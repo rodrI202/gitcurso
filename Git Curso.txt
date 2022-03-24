@@ -17,7 +17,7 @@ git diff nombrearchivo (para ver las diferencias hechas en los archivos).
 .gitignore se crea para ignorar archivos o carpetas 
 git commit -m "he agregado git ignore "
 git branch login para crear una version alternativa de el codigo 
-git brach -m main ()
+git brach -m main 
 https://www.youtube.com/watch?v=HiXLkL42tMU
 $ git checkout master
 ssh divana2199
