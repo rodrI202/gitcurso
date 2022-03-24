@@ -1,0 +1,58 @@
+GIT control de Versiones. 
+Tres estados
+Working directory
+staging area
+Repository
+
+git init para inicializar un proyecto nuevo
+git status (para ver el estado de nuestros archivos)
+git add nombredearchivo.py para agregar un archivo al staging area
+git add. (subir All)
+git commit para crear un primer punto de control de nuestro codigo y luego :wq 
+git config --global user.email "rodrigo.narvaez@hotmail.com" (Para configurar el email de este usuario)
+git config --global user.name "Zotark"
+git log (Para ver todos los commits que hemos creado)
+git checkout -- nombrearchivo(Para revertir los cambios de los archivos)
+git diff nombrearchivo (para ver las diferencias hechas en los archivos).
+.gitignore se crea para ignorar archivos o carpetas 
+git commit -m "he agregado git ignore "
+git branch login para crear una version alternativa de el codigo 
+git brach -m main ()
+https://www.youtube.com/watch?v=HiXLkL42tMU
+$ git checkout master
+ssh divana2199
+
+montar a remoto
+git remote add origin  <REMOTE_URL>
+Puedes usar el comando git remote set-url para cambiar la URL de un remoto.
+
+…or create a new repository on the command line
+echo "# EjercciioJava" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rodrI202/EjercciioJava.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/rodrI202/EjercciioJava.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
+
+En el caso de querer eliminar una rama del repositorio remoto, la sintaxis será la siguiente:
+$ git push origin :nombre-rama
+
+
+
+
